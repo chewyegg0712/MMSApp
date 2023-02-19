@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+
+
+<VBox fx:controller="controller.SessionController" styleClass="background" prefHeight="300.0" prefWidth="700.0" spacing="10" 
+      xmlns:fx="http://javafx.com/fxml/1">
+    
+    <HBox alignment="center">
+        <ImageView fitHeight="170" fitWidth="320">
+            <image>
+                <Image url="@loGo.png"/>
+            </image>
+        </ImageView>
+    </HBox>
+    
+    <HBox alignment="center" spacing="260">
+        <Text text=""></Text>
+    </HBox>  
+
+    <HBox alignment="center">
+        <Text text="Membership Management System"></Text>
+    </HBox>
+     
+    <HBox alignment="BOTTOM_CENTER"  spacing="30">
+        <Button text="Login"  fx:id="loginBtn" onAction="#handleLogin" />
+        <Button text="Exit"  fx:id="exitBtn" onAction="#handleExit" />
+    </HBox>
+
+    <stylesheets>
+        <URL value="@mmsfx.css"/>
+    </stylesheets>
+
+</VBox>

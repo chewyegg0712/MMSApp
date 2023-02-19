@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/model/Session.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/model/SuperMarkets.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/view/slip.fxml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/controller/SuperMarketController.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/controller/Validator.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/controller/MembershipController.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/MMSApp.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/model/InputException.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/model/SuperMarket.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/model/MMS.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/view/mms.fxml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/controller/MMSController.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/controller/MMSLoginController.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/model/Membership.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/view/SuperMarket.png</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/controller/ErrorController.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/au/edu/uts/ap/javafx/Controller.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/view/MMSlogin.fxml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/controller/MMSlipController.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/view/Membership.fxml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/view/book.png</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/au/edu/uts/ap/javafx/ViewLoader.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/model/MMSreport.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/view/error.png</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/controller/SessionController.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/view/session.fxml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/view/mmsfx.css</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/model/Memberships.java</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/view/error.fxml</file>
+            <file>file:/C:/Users/User/Documents/NetBeansProjects/MMSApp/src/view/SuperMarket.fxml</file>
+        </group>
+    </open-files>
+</project-private>

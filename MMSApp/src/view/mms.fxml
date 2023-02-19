@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:controller="controller.MMSController" alignment="center" prefHeight="748.0" prefWidth="1300.0" styleClass="background" spacing="10"
+      xmlns:fx="http://javafx.com/fxml/1" >
+    <TableView fx:id="reportsTv" items="${controller.MMS.memberships}" prefHeight="540">
+        <columns>
+            <TableColumn fx:id="nameClm" text="Name" prefWidth="162.5">
+                
+            </TableColumn>
+            <TableColumn fx:id="typeClm" text="Type" prefWidth="162.5">
+                
+            </TableColumn>
+            <TableColumn fx:id="expenseClm" text="Expense" prefWidth="162.5">
+            
+            </TableColumn>
+            <TableColumn fx:id="creditsClm" text="Credits" prefWidth="162.5">
+            
+            </TableColumn>
+            <TableColumn fx:id="gasDeductionClm" text="GasdeductionRate" prefWidth="162.5">
+                
+            </TableColumn>
+            <TableColumn fx:id="deductionClm" text="DeductionRate" prefWidth="162.5">
+                
+            </TableColumn>
+            <TableColumn fx:id="payPerCreditClm" text="PayPerCredit" prefWidth="162.5">
+            
+            </TableColumn>
+            <TableColumn fx:id="dollarClm" text="DollarAvailable" prefWidth="162.5">
+            
+            </TableColumn>
+        </columns>
+    </TableView>
+    
+    <Separator/>
+    
+    <GridPane alignment="center" hgap="50" vgap="5" >
+    <Label text="Total Expense:"  GridPane.columnIndex="0" GridPane.rowIndex="0" /> 
+    <Label text="AvgGasdeductionRate:"  GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <Label text="AvgPayPerCredit:"  GridPane.columnIndex="0" GridPane.rowIndex="2" />
+    <Text fx:id="totalExpenseTxt" styleClass="text-out" GridPane.columnIndex="1" GridPane.rowIndex="0"  />
+    <Text fx:id="avgGasDeductionTxt" styleClass="text-out" GridPane.columnIndex="1" GridPane.rowIndex="1"  />
+    <Text fx:id="avgPayPerCreditTxt" styleClass="text-out" GridPane.columnIndex="1" GridPane.rowIndex="2"  />
+    <Label text="Total Credits:"  GridPane.columnIndex="2" GridPane.rowIndex="0" />
+    <Label text="AvgDeductionRate:"  GridPane.columnIndex="2" GridPane.rowIndex="1" /> 
+    <Label text="TotalDollarAvailable:"  GridPane.columnIndex="2" GridPane.rowIndex="2" />
+    <Text fx:id="totalCreditsTxt" styleClass="text-out" GridPane.columnIndex="3" GridPane.rowIndex="0"  />
+    <Text fx:id="avgDeductionTxt" styleClass="text-out" GridPane.columnIndex="3" GridPane.rowIndex="1"  />
+    <Text fx:id="totalDollarTxt" styleClass="text-out" GridPane.columnIndex="3" GridPane.rowIndex="2"  />
+    </GridPane>
+    
+    <Separator />
+    
+    <HBox alignment="CENTER">
+        <Button fx:id="closeBtn" text="Close" onAction="#handleClose" />
+    </HBox>
+    
+    <stylesheets>
+        <URL value="@mmsfx.css"/>
+    </stylesheets> 
+
+</VBox>
